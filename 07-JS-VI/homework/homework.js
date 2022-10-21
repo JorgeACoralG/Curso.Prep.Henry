@@ -7,7 +7,7 @@ function mayuscula(nombre) {
     return nombre[0].toUpperCase() + nombre.slice(1);
 }
 
-function invocarCallback(cb) {
+function invocarCallback(cb){
   // Invoca al callback `cb`
   //Tu código:
     cb();
